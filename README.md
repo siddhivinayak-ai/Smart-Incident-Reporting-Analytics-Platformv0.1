@@ -3,3 +3,14 @@ In logistics, manufacturing, and IT operations, incidents (delays, failures, bre
 
 
 
+
+open virtual env in backend
+
+then cd backend AND in other terminal CD Fronted
+
+
+cd backend
+uvicorn main:app --reload
+
+cd frotend
+npm run dev
