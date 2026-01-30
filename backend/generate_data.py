@@ -19,7 +19,7 @@ def generate_severity(description, category):
         return "Medium"
     return "Low"
 
-async def generate_incidents(n=10000):
+async def generate_incidents(n=5000):
     print(f"Generating {n} records...")
     batch = []
     
